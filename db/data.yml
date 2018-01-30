@@ -1,0 +1,55 @@
+
+---
+ar_internal_metadata:
+  columns:
+  - key
+  - value
+  - created_at
+  - updated_at
+  records: 
+  - - environment
+    - development
+    - '2017-08-18 18:03:43.791136'
+    - '2017-08-18 18:03:43.791136'
+
+---
+articulos:
+  columns:
+  - id
+  - titular
+  - contenido
+  - created_at
+  - updated_at
+  records: 
+  - - 2
+    - Titular de prueba 5
+    - El contenido es, en efecto, el correcto
+    - '2017-08-18 18:50:35.919822'
+    - '2017-08-18 18:50:35.919822'
+  - - 3
+    - titular de prueba 666
+    - blas perez
+    - '2017-08-18 20:13:13.029157'
+    - '2017-08-19 03:04:40.260254'
+  - - 4
+    - la madre teresa
+    - lucas de estrada y rabago
+    - '2017-08-18 20:15:47.102840'
+    - '2017-12-13 05:35:54.190865'
+
+---
+comentarios:
+  columns:
+  - id
+  - comentarista
+  - contenido
+  - articulo_id
+  - created_at
+  - updated_at
+  records: 
+  - - 4
+    - val
+    - vbrt
+    - 2
+    - '2017-12-14 02:31:20.852924'
+    - '2017-12-14 02:31:20.852924'
